@@ -23,6 +23,3 @@ var_dump($watcher);
 var_dump($maigret);
 var_dump($siccità);
 
-echo "$watcher";
-echo "$maigret";
-echo "$siccità";
