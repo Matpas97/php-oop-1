@@ -13,7 +13,7 @@ class Movie {
     echo "Best movie is Maigret";
    }
     
-   bestMovie();
+ 
     
 }
 
@@ -21,13 +21,15 @@ class Movie {
 // Variabili d'Istanza
 $watcher = new Movie();
 $maigret = new Movie(); 
-$siccità = new Movie();
+$siccita = new Movie();
 
 $watcher->name = "Watcher";
 $maigret->name = "Maigret";
-$siccità->name = "Siccità";
+$siccita->name = "Siccita";
+
+$maigret->bestMovie();
 
 var_dump($watcher);
 var_dump($maigret);
-var_dump($siccità);
+var_dump($siccita);
 
