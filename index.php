@@ -9,10 +9,18 @@
 class Movie {
     public $name;
     
+   public function bestMovie() {
+    echo "Best movie is Maigret";
+   }
+    
+   bestMovie();
+    
 }
+
+
 // Variabili d'Istanza
 $watcher = new Movie();
-$maigret = new Movie();
+$maigret = new Movie(); 
 $siccità = new Movie();
 
 $watcher->name = "Watcher";
